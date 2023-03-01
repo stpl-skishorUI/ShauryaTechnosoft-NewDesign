@@ -204,6 +204,7 @@ a.text-main{
     color: #aaa;
 }
 
+#about-us,
 #services {
     padding-block: 4rem;
 }
@@ -232,6 +233,34 @@ a.text-main{
     margin-bottom: 1rem;
     color: #fff;
 }
+#services .card a,
 #services .card p{
     color: #fff;
+}
+#about-us{
+    color: #fff;
+}
+#about-us .media:hover .icon-container{
+    color: #fff;
+    background-color: var(--home1-main-color);
+    transition: all 0.5s ease-in-out 0s;
+    transform: translate(0px, -5px);
+}
+#about-us .icon-container {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border: solid 1px var(--home1-main-color);
+    color: var(--home1-main-color);
+    text-align: center;
+    font-size: 1.75rem;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease-in-out 0s;
+}
+#about-us h4 {
+    font-family: 'Oswald', sans-serif;
+}
+#about-us p {
+    font-size: 0.95rem;
+    font-weight: 300;
 }

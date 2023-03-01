@@ -204,6 +204,7 @@ a.text-main{
     color: #aaa;
 }
 
+#why-choose,
 #about-us,
 #services {
     padding-block: 4rem;
@@ -260,7 +261,22 @@ a.text-main{
 #about-us h4 {
     font-family: 'Oswald', sans-serif;
 }
-#about-us p {
-    font-size: 0.95rem;
+#why-choose{
+    color: #fff;
+}
+#why-choose .media{
+    margin-bottom: 1rem;
+}
+#why-choose .media h1{
+    font-weight: 900;
+    width: 70px;
+    color: var(--home1-main-color);
+}
+#why-choose .media h4{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0.75rem;
+}
+#why-choose .media p{
+    font-size: 0.9rem;
     font-weight: 300;
 }

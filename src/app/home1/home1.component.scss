@@ -204,6 +204,7 @@ a.text-main{
     color: #aaa;
 }
 
+#stats,
 #why-choose,
 #about-us,
 #services {
@@ -279,4 +280,34 @@ a.text-main{
 #why-choose .media p{
     font-size: 0.9rem;
     font-weight: 300;
+}
+#stats{
+    background-image:linear-gradient(90deg, rgba(6,9,34,0.75) 0%, rgba(6,9,34,0.75) 100%), url('../../assets/images/home1/stas-bg.jpg');
+}
+#stats .card{
+    border: solid 1px var(--home1-main-color);
+    border-top: solid 5px var(--home1-main-color);
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    transition: all 0.5s ease-in-out 0s;
+}
+#stats .card:hover{
+    background-color:var(--home1-main-color);
+    transition: all 0.5s ease-in-out 0s;
+}
+#stats .card:hover i{
+    color:#fff;
+}
+#stats .card.card-body{
+    padding: 2rem;
+}
+#stats .card i{
+    font-size: 3rem;
+    color:var(--home1-main-color);
+    margin-bottom: 1rem;
+}
+#stats .card h1{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1rem;
 }

@@ -404,6 +404,7 @@ a.text-main {
 #clients .card img {
     height: 60px;
 }
+
 #testimonials {
     background-image: linear-gradient(90deg, rgba(6, 9, 34, 0.75) 0%, rgba(6, 9, 34, 0.75) 100%), url('https://img.freepik.com/free-photo/business-people-casual-meeting_53876-101882.jpg');
     background-position: center;
@@ -411,14 +412,16 @@ a.text-main {
     background-size: cover;
     background-attachment: fixed !important;
 }
+
 #testimonials .carousel-control-prev,
-#testimonials .carousel-control-next{
+#testimonials .carousel-control-next {
     height: 50px;
     width: 50px;
     top: 44%;
     background-color: rgba(255, 255, 255, 0.3);
 }
-#testimonials .testi-content{
+
+#testimonials .testi-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -429,35 +432,41 @@ a.text-main {
     padding: 0 2rem;
     color: #fff;
 }
-#testimonials .testi-content .testi-image{
+
+#testimonials .testi-content .testi-image {
     width: 100px;
     border-radius: 50px;
     border: solid 5px var(--home1-main-color);
     margin-bottom: 2rem;
 }
-#testimonials .testi-content .testimonial-text{
+
+#testimonials .testi-content .testimonial-text {
     font-size: 1.3rem;
     font-weight: 200;
     margin-bottom: 2rem;
 }
-#testimonials .testi-content .customer-name{
+
+#testimonials .testi-content .customer-name {
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 0.1rem;
 }
-#testimonials .testi-content .customer-role{
+
+#testimonials .testi-content .customer-role {
     font-size: 0.85rem;
     font-weight: 500;
     margin-bottom: 0rem;
 }
-#blog .card{
+
+#blog .card {
     border: none;
     background-color: #1e234e;
     color: #fff;
     border-radius: 1rem;
-    position:relative;
+    position: relative;
 }
-#blog .card .img-container{
+
+#blog .card .img-container {
     max-height: 400px;
     width: 100%;
     overflow: hidden;
@@ -466,95 +475,126 @@ a.text-main {
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
-#blog .card:hover .card-img-top{
+
+#blog .card:hover .card-img-top {
     transform: scale(1.05);
     transition: all 0.5s ease-in-out 0s;
 }
-#blog .card .card-img-top{
+
+#blog .card .card-img-top {
     height: 270px;
     transition: all 0.5s ease-in-out 0s;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
-#blog .card .blog-details{
+
+#blog .card .blog-details {
     font-size: 0.75rem;
     font-weight: 300;
     margin-bottom: 0.75rem;
 }
-#blog .card .blog-details i{
+
+#blog .card .blog-details i {
     color: var(--home1-main-color);
     margin-right: 0.3rem;
 }
-#blog .card .blog-title{
+
+#blog .card .blog-title {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0.75rem;
     font-size: 1.6rem;
 }
-#blog .card .blog-text{
+
+#blog .card .blog-text {
     font-size: 0.9rem;
     color: #bbb;
     margin-bottom: 1rem;
 }
-#footer{
+
+#footer {
     color: #fff;
     padding-top: 4rem;
     padding-bottom: 1rem;
 }
-#footer .footer-logo{
+
+#footer .footer-logo {
     width: 180px;
     margin-bottom: 1.5rem;
 }
-#footer .footer-text{
+
+#footer .footer-text {
     font-size: 0.9rem;
     font-weight: 300;
     line-height: 30px;
 }
-#footer h4{
+
+#footer h4 {
     font-size: 1.2rem;
     font-weight: 300;
     margin-bottom: 1.5rem;
 }
-#footer ul{
+
+#footer ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     columns: 2;
 }
-#footer ul li{
+
+#footer ul li {
     line-height: 2.3rem;
 }
-#footer ul li a{
+
+#footer ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 0.85rem;
     font-weight: 300;
 }
-#footer ul li a:hover{
+
+#footer ul li a:hover {
     color: var(--home1-main-color);
 }
-#footer ul li a i{
+
+#footer ul li a i {
     color: var(--home1-main-color);
     margin-right: 0.5rem;
 }
-#footer .contactus{
+
+#footer .contactus {
     font-size: 0.85rem;
 }
-#footer .contactus a{
+
+#footer .contactus a {
     color: #fff;
     text-decoration: none;
 }
-#footer .contactus i{
+
+#footer .contactus i {
     margin-right: 0.75rem;
     color: var(--home1-main-color);
 }
-#footer #bottom{
+
+#footer #bottom {
     font-size: 0.85rem;
     font-weight: 300;
 }
-#footer #bottom a{
+
+#footer #bottom a {
     color: #fff;
     text-decoration: none;
 }
-#footer #bottom a:hover{
+
+#footer #bottom a:hover {
     color: var(--home1-main-color);
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
 }

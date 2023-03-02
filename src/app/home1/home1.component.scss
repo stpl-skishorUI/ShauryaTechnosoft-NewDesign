@@ -210,6 +210,7 @@ a.text-main {
     color: #aaa;
 }
 
+#testimonials,
 #clients,
 #solutions,
 #stats,
@@ -401,4 +402,50 @@ a.text-main {
 
 #clients .card img {
     height: 60px;
+}
+#testimonials {
+    background-image: linear-gradient(90deg, rgba(6, 9, 34, 0.75) 0%, rgba(6, 9, 34, 0.75) 100%), url('https://img.freepik.com/free-photo/business-people-casual-meeting_53876-101882.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+#testimonials .carousel-control-prev,
+#testimonials .carousel-control-next{
+    height: 50px;
+    width: 50px;
+    top: 44%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#testimonials .testi-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    color: #fff;
+}
+#testimonials .testi-content .testi-image{
+    width: 100px;
+    border-radius: 50px;
+    border: solid 5px var(--home1-main-color);
+    margin-bottom: 2rem;
+}
+#testimonials .testi-content .testimonial-text{
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+#testimonials .testi-content .customer-name{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.1rem;
+}
+#testimonials .testi-content .customer-role{
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 0rem;
 }

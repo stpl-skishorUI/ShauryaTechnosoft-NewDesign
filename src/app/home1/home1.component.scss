@@ -125,6 +125,7 @@
     line-height: 28px;
     margin-bottom: 2rem;
 }
+
 .left-content .btn-play {
     border: solid 2px var(--home1-main-color);
     background-color: var(--home1-main-color);
@@ -164,13 +165,16 @@
         box-shadow: 0 0 0 0 rgba(9, 175, 244, 0);
     }
 }
-a.text-main{
+
+a.text-main {
     color: var(--home1-main-color);
     text-decoration: none;
 }
-.text-main{
+
+.text-main {
     color: var(--home1-main-color);
 }
+
 .btn-main {
     border: solid 2px var(--home1-main-color);
     color: var(--home1-main-color);
@@ -178,12 +182,14 @@ a.text-main{
     padding: 0.75rem 2.25rem;
     transition: all 0.5s ease-in-out 0s;
 }
+
 .btn-main:hover {
     border: solid 2px var(--home1-main-color);
     background-color: var(--home1-main-color);
     color: #fff;
     transition: all 0.5s ease-in-out 0s;
 }
+
 .small-heading {
     text-transform: uppercase;
     font-weight: 600;
@@ -196,7 +202,7 @@ a.text-main{
     font-size: 3rem;
     font-family: 'Oswald', sans-serif;
     color: #fff;
-    margin-block:1rem;
+    margin-block: 1rem;
 }
 
 .sub-heading {
@@ -204,6 +210,7 @@ a.text-main{
     color: #aaa;
 }
 
+#clients,
 #solutions,
 #stats,
 #why-choose,
@@ -211,45 +218,55 @@ a.text-main{
 #services {
     padding-block: 4rem;
 }
-#services .card{
+
+#services .card {
     border: solid 1px var(--home1-main-color);
     transition: all 1s ease-in-out 0s;
     background: linear-gradient(to left, transparent 50%, var(--home1-main-color) 50%) right;
     background-size: 200%;
 }
-#services .card:hover{
+
+#services .card:hover {
     transition: all 1s ease-in-out 0s;
     background-position: left;
 }
-#services .card:hover i{
+
+#services .card:hover i {
     color: #fff;
 }
-#services .card.card-body{
+
+#services .card.card-body {
     padding: 2rem;
 }
-#services .card i{
+
+#services .card i {
     font-size: 2.75rem;
     margin-bottom: 1rem;
     color: var(--home1-main-color);
 }
-#services .card h2{
+
+#services .card h2 {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 1rem;
     color: #fff;
 }
+
 #services .card a,
-#services .card p{
+#services .card p {
     color: #fff;
 }
-#about-us{
+
+#about-us {
     color: #fff;
 }
-#about-us .media:hover .icon-container{
+
+#about-us .media:hover .icon-container {
     color: #fff;
     background-color: var(--home1-main-color);
     transition: all 0.5s ease-in-out 0s;
     transform: translate(0px, -5px);
 }
+
 #about-us .icon-container {
     width: 55px;
     height: 55px;
@@ -261,32 +278,40 @@ a.text-main{
     border-radius: 0.5rem;
     transition: all 0.5s ease-in-out 0s;
 }
+
 #about-us h4 {
     font-family: 'Oswald', sans-serif;
 }
-#why-choose{
+
+#why-choose {
     color: #fff;
 }
-#why-choose .media{
+
+#why-choose .media {
     margin-bottom: 1rem;
 }
-#why-choose .media h1{
+
+#why-choose .media h1 {
     font-weight: 900;
     width: 70px;
     color: var(--home1-main-color);
 }
-#why-choose .media h4{
+
+#why-choose .media h4 {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0.75rem;
 }
-#why-choose .media p{
+
+#why-choose .media p {
     font-size: 0.9rem;
     font-weight: 300;
 }
-#stats{
-    background-image:linear-gradient(90deg, rgba(6,9,34,0.75) 0%, rgba(6,9,34,0.75) 100%), url('../../assets/images/home1/stas-bg.jpg');
+
+#stats {
+    background-image: linear-gradient(90deg, rgba(6, 9, 34, 0.75) 0%, rgba(6, 9, 34, 0.75) 100%), url('../../assets/images/home1/stas-bg.jpg');
 }
-#stats .card{
+
+#stats .card {
     border: solid 1px var(--home1-main-color);
     border-top: solid 5px var(--home1-main-color);
     color: #fff;
@@ -295,57 +320,85 @@ a.text-main{
     background: linear-gradient(to left, transparent 50%, var(--home1-main-color) 50%) right;
     background-size: 200%;
 }
-#stats .card:hover{
+
+#stats .card:hover {
     transition: all 1s ease-in-out 0s;
     background-position: left;
 }
-#stats .card:hover i{
+
+#stats .card:hover i {
     transition: all 1s ease-in-out 0s;
-    color:#fff;
+    color: #fff;
 }
-#stats .card.card-body{
+
+#stats .card.card-body {
     padding: 2rem;
 }
-#stats .card i{
+
+#stats .card i {
     font-size: 3rem;
-    color:var(--home1-main-color);
+    color: var(--home1-main-color);
     margin-bottom: 1rem;
 }
-#stats .card h1{
+
+#stats .card h1 {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 1rem;
 }
-#solutions label.btn{
+
+#solutions label.btn {
     color: #fff;
     border: none;
     padding-inline: 0.5rem;
     margin-inline: 0.5rem;
 }
-#solutions .btn-check:checked+.btn{
+
+#solutions .btn-check:checked+.btn {
     color: var(--home1-main-color);
     border: none;
 }
-#solutions .card{
-   border: 1px solid var(--home1-main-color);
-   background-color: transparent;
-   border-radius: 1rem;
-   transition: all 0.5s ease-in-out 0s;
-   color: #fff;
+
+#solutions .card {
+    border: 1px solid var(--home1-main-color);
+    background-color: transparent;
+    border-radius: 1rem;
+    transition: all 0.5s ease-in-out 0s;
+    color: #fff;
 }
-#solutions .card .card-title{
-   margin: 0;
-   font-size: 1.1rem;
+
+#solutions .card .card-title {
+    margin: 0;
+    font-size: 1.1rem;
 }
-#solutions .card .card-img-top{
-   margin:-1.5rem 1rem 0 1rem;
-   border-radius: 1rem;
-   width: auto;
-   height: 240px;
-   transition: all 0.5s ease-in-out 0s;
+
+#solutions .card .card-img-top {
+    margin: -1.5rem 1rem 0 1rem;
+    border-radius: 1rem;
+    width: auto;
+    height: 240px;
+    transition: all 0.5s ease-in-out 0s;
 }
-#solutions .card:hover .card-img-top{
-   margin: 0rem;
-   transition: all 0.5s ease-in-out 0s;
-   border-bottom-left-radius: 0;
-   border-bottom-right-radius: 0;
+
+#solutions .card:hover .card-img-top {
+    margin: 0rem;
+    transition: all 0.5s ease-in-out 0s;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#clients {
+    background-color: var(--home1-main-color);
+}
+
+#clients .card {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#clients .card img {
+    height: 60px;
 }

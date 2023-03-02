@@ -495,3 +495,66 @@ a.text-main {
     color: #bbb;
     margin-bottom: 1rem;
 }
+#footer{
+    color: #fff;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+#footer .footer-logo{
+    width: 180px;
+    margin-bottom: 1.5rem;
+}
+#footer .footer-text{
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 30px;
+}
+#footer h4{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+#footer ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    columns: 2;
+}
+#footer ul li{
+    line-height: 2.3rem;
+}
+#footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+#footer ul li a:hover{
+    color: var(--home1-main-color);
+}
+#footer ul li a i{
+    color: var(--home1-main-color);
+    margin-right: 0.5rem;
+}
+#footer .contactus{
+    font-size: 0.85rem;
+}
+#footer .contactus a{
+    color: #fff;
+    text-decoration: none;
+}
+#footer .contactus i{
+    margin-right: 0.75rem;
+    color: var(--home1-main-color);
+}
+#footer #bottom{
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+#footer #bottom a{
+    color: #fff;
+    text-decoration: none;
+}
+#footer #bottom a:hover{
+    color: var(--home1-main-color);
+}

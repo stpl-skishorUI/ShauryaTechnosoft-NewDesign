@@ -212,12 +212,13 @@ a.text-main{
 }
 #services .card{
     border: solid 1px var(--home1-main-color);
-    background-color: transparent;
-    transition: all 0.5s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    background: linear-gradient(to left, transparent 50%, var(--home1-main-color) 50%) right;
+    background-size: 200%;
 }
 #services .card:hover{
-    background-color: var(--home1-main-color);
-    transition: all 0.5s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    background-position: left;
 }
 #services .card:hover i{
     color: #fff;
@@ -287,16 +288,18 @@ a.text-main{
 #stats .card{
     border: solid 1px var(--home1-main-color);
     border-top: solid 5px var(--home1-main-color);
-    background-color: transparent;
     color: #fff;
     text-align: center;
-    transition: all 0.5s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    background: linear-gradient(to left, transparent 50%, var(--home1-main-color) 50%) right;
+    background-size: 200%;
 }
 #stats .card:hover{
-    background-color:var(--home1-main-color);
-    transition: all 0.5s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    background-position: left;
 }
 #stats .card:hover i{
+    transition: all 1s ease-in-out 0s;
     color:#fff;
 }
 #stats .card.card-body{

@@ -602,17 +602,6 @@ a.text-main {
 #footer #bottom a:hover {
     color: var(--home1-main-color);
 }
-
-.scroll-top {
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 5px;
-    outline: none;
-}
-
 .social-icons {
     display: flex;
 }
@@ -630,4 +619,18 @@ a.text-main {
 
 .social-icons a:hover {
     color: #000;
+}
+.scroll-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    background-color:var(--home1-main-color);
+    color: #fff;
+    border: none;
 }

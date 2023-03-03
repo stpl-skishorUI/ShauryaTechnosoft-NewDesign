@@ -64,16 +64,19 @@
     -webkit-transition: .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 .navbar-scroll {
-    background-color:var(--home1-main-color) !important;
+    background-color: var(--home1-main-color) !important;
     padding-block: 5px;
     transition: all .6s ease-in-out;
     box-shadow: 0 5px 5px 0 rgb(0 0 0 / 4%);
 }
-.navbar-scroll img{
+
+.navbar-scroll img {
     width: 150px;
     transition: all .6s ease-in-out;
 }
+
 .page-hero {
     position: relative;
     z-index: 0;
@@ -179,6 +182,7 @@
 a.text-main {
     color: var(--home1-main-color);
     text-decoration: none;
+    font-size: 0.95rem;
 }
 
 .text-main {
@@ -198,6 +202,21 @@ a.text-main {
     background-color: var(--home1-main-color);
     color: #fff;
     transition: all 0.5s ease-in-out 0s;
+}
+a.text-main:hover i,
+.btn-main:hover i {
+    -webkit-animation: bounceright 0.3s alternate ease infinite;
+    animation: bounceright 0.3s alternate ease infinite;
+}
+
+@keyframes bounceright {
+    from {
+        -webkit-transform: translateX(0);
+    }
+
+    to {
+        -webkit-transform: translateX(5px);
+    }
 }
 
 .small-heading {
@@ -242,16 +261,20 @@ a.text-main {
     transition: all 1s ease-in-out 0s;
     background-position: left;
 }
-
-#services .card:hover i {
+#services .card:hover a,
+#services .card:hover .service-icon {
     color: #fff;
+}
+#services .card:hover i {
+    -webkit-animation: bounceright 0.3s alternate ease infinite;
+    animation: bounceright 0.3s alternate ease infinite;
 }
 
 #services .card.card-body {
     padding: 2rem;
 }
 
-#services .card i {
+#services .card .service-icon {
     font-size: 2.75rem;
     margin-bottom: 1rem;
     color: var(--home1-main-color);
@@ -263,7 +286,6 @@ a.text-main {
     color: #fff;
 }
 
-#services .card a,
 #services .card p {
     color: #fff;
 }
@@ -520,7 +542,8 @@ a.text-main {
     color: #bbb;
     margin-bottom: 1rem;
 }
-#footer .footer-bg{
+
+#footer .footer-bg {
     position: relative;
     color: #fff;
     padding-top: 4rem;
@@ -612,6 +635,7 @@ a.text-main {
 #footer #bottom a:hover {
     color: var(--home1-main-color);
 }
+
 .social-icons {
     display: flex;
 }
@@ -630,6 +654,7 @@ a.text-main {
 .social-icons a:hover {
     color: #000;
 }
+
 .scroll-top {
     position: fixed;
     bottom: 15px;
@@ -640,7 +665,7 @@ a.text-main {
     outline: none;
     width: 40px;
     height: 40px;
-    background-color:var(--home1-main-color);
+    background-color: var(--home1-main-color);
     color: #fff;
     border: none;
 }

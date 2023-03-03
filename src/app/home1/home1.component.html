@@ -1,5 +1,5 @@
 <div class="body-wrapper">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" [class.navbar-scroll]="defaultClassNavbarScrollFlag" (scroll)="onWindowScroll();">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="assets/images/home1/STPL_Logo_White.svg">

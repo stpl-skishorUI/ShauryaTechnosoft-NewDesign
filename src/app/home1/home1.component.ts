@@ -7,8 +7,21 @@ import { Component, HostListener, ElementRef } from '@angular/core';
 export class Home1Component {
   isShow: boolean | undefined;
   topPosToStartShowing = 100;
+  defaultClassNavbarScrollFlag:boolean =false;
 
-  @HostListener('window:scroll')
+  @HostListener('window:scroll', ['$event'])
+
+  onWindowScroll() {
+    
+    if (!this.defaultClassNavbarScrollFlag) {
+      let element = document.querySelector('.navbar') as HTMLElement;
+      if (window.pageYOffset > element.clientHeight) {
+        element.classList.add('navbar-scroll');
+      } else {
+        element.classList.remove('navbar-scroll');
+      }
+    }
+  }
   checkScroll() {
       
     // window의 scroll top

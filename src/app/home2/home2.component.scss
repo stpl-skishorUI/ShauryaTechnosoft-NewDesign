@@ -126,6 +126,14 @@ header img {
     font-family: 'Gloock', serif;
     font-weight: 900;
     letter-spacing: 3px;
+    color: var(--home2-main-color);
+}
+.page-heading{
+    font-size: 1.2rem;
+    color: var(--home2-secondary-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 .btn-main{
     background-color: var(--home2-secondary-color);
@@ -139,8 +147,9 @@ header img {
     border-radius:2rem;
     transition: all 1s ease-in-out 0s;
 }
+#about-us,
 #services{
-    margin: 4rem 0;
+    padding: 4rem 0;
 }
 #services a{
     text-decoration: none;
@@ -158,6 +167,8 @@ header img {
 #services .card:hover a{
     opacity: 1;
     transition: top .3s,opacity .3s;
+    -webkit-animation: bounceright 0.3s alternate ease infinite;
+    animation: bounceright 0.3s alternate ease infinite;
 }
 #services .card a{
     position: absolute;
@@ -173,4 +184,39 @@ header img {
 }
 #services p{
     margin: 0;
+}
+@keyframes bounceright {
+    from {
+        -webkit-transform: translateX(0);
+    }
+
+    to {
+        -webkit-transform: translateX(5px);
+    }
+}
+#about-us .card{
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+#about-us .card:hover i{
+    background-color: var(--home2-main-color);
+    transition: all 1s ease-in-out 0s;
+}
+#about-us i{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--home2-secondary-color);
+    width: 60px;
+    height: 60px;
+    border-radius: 0 1rem 0 1rem;
+    background-color: #fff;
+    line-height: 60px;
+    margin-inline: auto;
+    transition: all 1s ease-in-out 0s;
+}
+#about-us h4{
+    color: var(--home2-main-color);
+    font-size: 1.3rem;
+    font-weight: 700;
 }

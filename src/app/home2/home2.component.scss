@@ -122,11 +122,12 @@ header img {
     transition: all .6s ease-in-out;
 }
 .main-heading{
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     font-family: 'Gloock', serif;
     font-weight: 900;
     letter-spacing: 3px;
     color: var(--home2-main-color);
+    line-height: 3.5rem;
 }
 .page-heading{
     font-size: 1.2rem;
@@ -147,6 +148,7 @@ header img {
     border-radius:2rem;
     transition: all 1s ease-in-out 0s;
 }
+#why-choose,
 #about-us,
 #services{
     padding: 4rem 0;
@@ -219,4 +221,37 @@ header img {
     color: var(--home2-main-color);
     font-size: 1.3rem;
     font-weight: 700;
+}
+#why-choose .media{
+    margin-bottom: 1.4rem;
+}
+#why-choose .media i{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 0 1rem 0 1rem;
+    background-color: var(--home2-secondary-color);
+    line-height: 60px;
+    margin-inline: auto;
+    transition: all 1s ease-in-out 0s;
+    text-align: center;
+}
+#why-choose .media h4{
+    font-size: 1.4rem;
+    color: var(--home2-main-color);
+    font-weight: 600;
+}
+#why-choose .why-choose-bg{
+    height: 100%;
+}
+#why-choose .why-choose-bg::after{
+    content: '';
+    width: 747px;
+    height: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/into-success-group-young-freelancers-office-have-conversation-smiling_146671-13567.jpg');
 }

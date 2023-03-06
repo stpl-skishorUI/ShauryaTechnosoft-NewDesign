@@ -148,6 +148,7 @@ header img {
     border-radius:2rem;
     transition: all 1s ease-in-out 0s;
 }
+#testimonials,
 #our-products,
 #why-choose,
 #about-us,
@@ -281,11 +282,25 @@ header img {
     font-weight: 600;
 }
 #our-products .card .card-text{
-    color: #888;
+    color: #757575;
     font-size: 0.9rem;
 }
 #our-products .card a{
     color: var(--home2-main-color);
     font-size: 0.9rem;
     text-decoration: none;
+}
+#our-products .carousel-control-prev{
+    left: -50px;
+}
+#our-products .carousel-control-next{
+    right: -50px;
+}
+#our-products .carousel-control-next,
+#our-products .carousel-control-prev{
+    top: 45%;
+    height: 46px;
+    width: 46px;
+    background-color: var(--home2-main-color);
+    border-radius: 50%;
 }

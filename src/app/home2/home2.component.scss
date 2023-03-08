@@ -90,7 +90,7 @@ header img {
 
 .navbar-nav .dropdown-menu {
     background-color: var(--home2-main-color);
-    border-radius: 0;
+    border-radius: 10px;
     padding: 15px;
 }
 
@@ -104,7 +104,7 @@ header img {
 }
 
 .navbar-nav .dropdown-menu .dropdown-item:hover {
-    color: var(--home2-bg-color);
+    color:var(--home2-secondary-color);
     background-color: transparent;
     -webkit-transition: .3s ease-in-out;
     transition: all .3s ease-in-out;

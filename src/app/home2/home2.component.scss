@@ -269,10 +269,6 @@ header img {
     -webkit-animation: bounceright 0.3s alternate ease infinite;
     animation: bounceright 0.3s alternate ease infinite;
 }
-#our-products .card .card-body{
-    padding-inline:0px;
-    padding-bottom: 0;
-}
 #our-products .card img{
     border-radius: 10px;
     height: 225px;
@@ -304,4 +300,54 @@ header img {
     width: 46px;
     background-color: var(--home2-main-color);
     border-radius: 50%;
+}
+#testimonials .card{
+    border-radius: 15px;
+}
+#testimonials .profile-pic{
+    width: 60px;
+}
+#testimonials .name{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+#testimonials .designation{
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #858585;
+}
+#testimonials .testi{
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-block: 10px;
+    color: #454545;
+    font-style: italic;
+}
+#testimonials .rating{
+    color: goldenrod;
+}
+#testimonials .carousel-indicators{
+    bottom: -50px;
+}
+#testimonials .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--home2-main-color);
+}
+#testimonials .carousel-buttons{
+    position: relative;
+    display: flex;
+}
+#testimonials .carousel-buttons button{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--home2-main-color) !important;
+}
+#testimonials .carousel-buttons button .carousel-control-next-icon,
+#testimonials .carousel-buttons button .carousel-control-prev-icon{
+    width: 1.1rem;
 }

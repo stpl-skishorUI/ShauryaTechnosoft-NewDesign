@@ -431,7 +431,7 @@ header img {
 }
 
 #footer ul li a:hover {
-    color: var(--home1-main-color);
+    color: var(--home2-secondary-color);
 }
 #footer ul li a:hover i{
     -webkit-animation: bounceright 0.3s alternate ease infinite;
@@ -439,7 +439,7 @@ header img {
 }
 
 #footer ul li a i {
-    color: var(--home1-main-color);
+    color: var(--home2-secondary-color);
     margin-right: 0.5rem;
 }
 
@@ -454,7 +454,7 @@ header img {
 
 #footer .contactus i {
     margin-right: 0.75rem;
-    color: var(--home1-main-color);
+    color: var(--home2-secondary-color);
 }
 
 #footer #bottom {
@@ -468,7 +468,7 @@ header img {
 }
 
 #footer #bottom a:hover {
-    color: var(--home1-main-color);
+    color: var(--home2-secondary-color);
 }
 
 .social-icons {
@@ -476,7 +476,7 @@ header img {
 }
 
 .social-icons a {
-    background-color: var(--home1-main-color);
+    background-color: var(--home2-secondary-color);
     color: #fff;
     width: 36px;
     height: 36px;
@@ -500,7 +500,7 @@ header img {
     outline: none;
     width: 40px;
     height: 40px;
-    background-color: var(--home1-main-color);
+    background-color: var(--home2-secondary-color);
     color: #fff;
     border: none;
 }

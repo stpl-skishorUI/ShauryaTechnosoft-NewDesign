@@ -602,7 +602,10 @@ a.text-main:hover i,
 #footer ul li a:hover {
     color: var(--home1-main-color);
 }
-
+#footer ul li a:hover i{
+    -webkit-animation: bounceright 0.3s alternate ease infinite;
+    animation: bounceright 0.3s alternate ease infinite;
+}
 #footer ul li a i {
     color: var(--home1-main-color);
     margin-right: 0.5rem;

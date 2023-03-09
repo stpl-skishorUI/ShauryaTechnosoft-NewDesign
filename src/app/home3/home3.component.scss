@@ -15,6 +15,7 @@ nav .btn-menu {
     border-radius: 50%;
     font-size: 1.5rem;
 }
+
 .navbar-scroll {
     background-color: var(--home3-main-color) !important;
     padding-block: 5px;
@@ -26,6 +27,7 @@ nav .btn-menu {
     width: 150px;
     transition: all .6s ease-in-out;
 }
+
 .menu ul {
     list-style-type: none;
     padding: 0;
@@ -186,56 +188,68 @@ header p {
     border: solid 2px var(--home3-main-color);
     border-radius: 30px;
 }
+
 a.text-main,
-.text-main{
+.text-main {
     color: var(--home3-main-color);
     text-decoration: none;
 }
+
+#testimonials,
 #clients,
 #why-choose,
 #services,
 #about-us {
     padding-block: 4rem;
 }
+
 #why-choose,
-#about-us{
+#about-us {
     background-color: #eee;
 }
-#about-us p{
+
+#about-us p {
     line-height: 1.8rem;
     font-weight: 500;
     color: #656565;
     margin-bottom: 2rem;
 }
-#services .card{
-    text-align:center;
+
+#services .card {
+    text-align: center;
 }
-#services .card h2{
+
+#services .card h2 {
     font-family: 'PT Serif', serif;
     font-weight: 900;
     color: var(--home3-main-color);
 }
-#services .card .serv-icon{
+
+#services .card .serv-icon {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
-#services .card:hover{
-    background-color:var(--home3-main-color);
+
+#services .card:hover {
+    background-color: var(--home3-main-color);
     color: #fff;
     transition: all 1s ease-in-out;
 }
+
 #services .card:hover a,
-#services .card:hover h2{
+#services .card:hover h2 {
     color: #fff;
     transition: all 1s ease-in-out;
 }
-#services .card:hover .serv-icon i{
+
+#services .card:hover .serv-icon i {
     transform: rotateY(180deg);
     transition: all 1s ease-in-out;
 }
-#services .serv-icon{
-    background-color:var(--home3-main-light-color);
+
+#services .serv-icon {
+    background-color: var(--home3-main-light-color);
     width: 60px;
     height: 60px;
     text-align: center;
@@ -245,29 +259,35 @@ a.text-main,
     color: var(--home3-main-color);
     margin-bottom: 1rem;
 }
-#why-choose .card{
+
+#why-choose .card {
     border-radius: 10px;
     transition: all 1s ease-in-out;
     border: none;
 }
-#why-choose .card:hover{
+
+#why-choose .card:hover {
     box-shadow: 0px 5px 20px rgb(0 0 0 / 50%);
     transform: translateY(-10px);
     transition: all 1s ease-in-out;
 }
-#why-choose .card img{
+
+#why-choose .card img {
     height: 200px;
-    border-top-left-radius:10px ;
-    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-#why-choose .card h4{
+
+#why-choose .card h4 {
     font-weight: 600;
     margin-bottom: 1rem;
 }
-#why-choose .card p{
-    margin-bottom:0;
+
+#why-choose .card p {
+    margin-bottom: 0;
     font-size: 0.85rem;
 }
+
 #clients {
     background-color: var(--home3-main-color);
 }
@@ -281,4 +301,72 @@ a.text-main,
 
 #clients .card img {
     height: 60px;
+}
+
+#testimonials .carousel-control-prev,
+#testimonials .carousel-control-next {
+    height: 50px;
+    width: 50px;
+    top: 0;
+    background-color: rgb(0 0 0 / 70%);
+    border-radius: 50%;
+}
+
+#testimonials .testi-content {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+#testimonials .testi-content .testi-image {
+    width: 200px;
+    border: solid 1px #aaa;
+    box-shadow: 10px 9px 0px 0px #aaa;
+    margin-right: 1rem;
+}
+
+#testimonials .testi-content .testimonial-text {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    text-indent: 2rem;
+    position: relative;
+    line-height: 2rem;
+}
+
+#testimonials .testi-content .testimonial-text:before,
+#testimonials .testi-content .testimonial-text:after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 2rem;
+    opacity: 0.3;
+    color: var(--home3-main-color);
+    font-style: italic;
+}
+
+#testimonials .testi-content .testimonial-text:before {
+    content: "\f10d";
+    position: absolute;
+    top: -12px;
+    left: -35px;
+}
+
+#testimonials .testi-content .testimonial-text:after {
+    content: "\f10e";
+    position: absolute;
+    bottom: -12px;
+    right: 65px;
+}
+
+#testimonials .testi-content .customer-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.1rem;
+    color: var(--home3-main-color);
+}
+
+#testimonials .testi-content .customer-role {
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 0rem;
 }

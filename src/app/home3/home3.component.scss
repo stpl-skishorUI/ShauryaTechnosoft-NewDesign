@@ -1,16 +1,89 @@
-nav{
-    background-color: rgba(0, 0, 0, 0.59);
-}
-nav img{
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+nav img {
     width: 160px;
 }
-nav .btn-menu{
+
+nav .btn-menu {
     background-color: transparent;
     width: 50px;
-    height:50px;
+    height: 50px;
     text-align: center;
     border: 3px solid #fff;
-    color:#fff;
+    color: #fff;
     border-radius: 50%;
     font-size: 1.5rem;
+}
+header  .carousel-item{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+header {
+    height: 100vh;
+}
+
+header .mahakhanij,
+header .election,
+header .amcu {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header .mahakhanij {
+    background-image:linear-gradient(90deg, rgba(0,48,130,0.65) 0%, rgba(0,48,130,0.8) 100%), url('https://img.freepik.com/free-photo/excavator-digging-ground-day-light_23-2149194767.jpg?w=996&t=st=1678343284~exp=1678343884~hmac=c7e0c67d9d5fcc9a24dcc6d11979da518e8c5c990698dbf11903d9f909f257dc');
+}
+
+header .election {
+    background-image:linear-gradient(90deg, rgba(0,48,130,0.65) 0%, rgba(0,48,130,0.8) 100%), url('https://c.ndtvimg.com/2019-10/3ru1dlg8_haryana-election-1200_625x300_24_October_19.jpg');
+}
+
+header .amcu {
+    background-image:linear-gradient(90deg, rgba(0,48,130,0.65) 0%, rgba(0,48,130,0.8) 100%), url('https://img.freepik.com/free-photo/technologist-expert-standing-food-production-plant-typing-his-tablet-computer_342744-1170.jpg?w=996&t=st=1678343649~exp=1678344249~hmac=135bc710f35ab98beaacca36de294ea3000304451f3cced152a43d36b037974f');
+}
+header h1{
+    font-size: 4.0rem;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+header p{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+.btn-more{
+    background-color: transparent;
+    color: #fff;
+    font-size:0.9rem;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 15px 35px;
+    border: solid 2px #fff;
+    transition: all 0.7s ease-in-out;
+    margin-right: 10px;
+}
+.btn-more:hover{
+    background-color: #fff;
+    color: var(--home3-main-color);
+    transition: all 0.7s ease-in-out;
+}
+.btn-download{
+    background-color: var(--home3-main-color);
+    color: #fff;
+    font-size:0.9rem;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 15px 35px;
+    border: solid 2px var(--home3-main-color);
+    transition: all 0.7s ease-in-out;
+}
+.btn-download:hover{
+    background-color: transparent;
+    color: #fff;
+    border: solid 2px #fff;
+    transition: all 0.7s ease-in-out;
 }

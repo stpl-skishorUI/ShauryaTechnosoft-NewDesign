@@ -195,6 +195,7 @@ a.text-main,
     text-decoration: none;
 }
 
+#footer,
 #testimonials,
 #clients,
 #why-choose,
@@ -369,4 +370,114 @@ a.text-main,
     font-size: 0.85rem;
     font-weight: 500;
     margin-bottom: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    background: linear-gradient(90deg, rgba(0, 48, 130, 0.65) 0%, rgba(0, 48, 130, 0.8) 100%), url('../../assets/images/home1/footer-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer .footer-logo {
+    width: 180px;
+    margin-bottom: 1.5rem;
+}
+
+#footer .footer-text {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+}
+
+#footer h4 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    columns: 2;
+}
+
+#footer ul li {
+    line-height: 2.3rem;
+}
+
+#footer ul li a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+#footer ul li a:hover {
+    color: #fff;
+}
+
+#footer ul li a i {
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
+#footer .contactus {
+    font-size: 0.85rem;
+}
+
+#footer .contactus a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .contactus i {
+    margin-right: 0.75rem;
+    color: #fff;
+}
+
+#footer #bottom {
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+
+#footer #bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer #bottom a:hover {
+    color: var(--home3-main-color);
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    background-color: var(--home3-main-light-color);
+    color: var(--home3-main-color);
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 1rem;
+    border-radius: 0.375rem;
 }

@@ -176,7 +176,11 @@ header p {
     border: solid 2px var(--home3-main-color);
     border-radius: 30px;
 }
-
+a.text-main,
+.text-main{
+    color: var(--home3-main-color);
+    text-decoration: none;
+}
 #services,
 #about-us {
     padding-block: 4rem;
@@ -189,4 +193,42 @@ header p {
     font-weight: 500;
     color: #656565;
     margin-bottom: 2rem;
+}
+#services .card{
+    text-align:center;
+}
+#services .card h2{
+    font-family: 'PT Serif', serif;
+    font-weight: 900;
+    color: var(--home3-main-color);
+}
+#services .card .serv-icon{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+#services .card:hover{
+    background-color:var(--home3-main-color);
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+#services .card:hover a,
+#services .card:hover h2{
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+#services .card:hover .serv-icon i{
+    transform: rotateY(180deg);
+    transition: all 1s ease-in-out;
+}
+#services .serv-icon{
+    background-color:var(--home3-main-light-color);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: var(--home3-main-color);
+    margin-bottom: 1rem;
 }

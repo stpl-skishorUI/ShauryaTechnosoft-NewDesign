@@ -15,7 +15,17 @@ nav .btn-menu {
     border-radius: 50%;
     font-size: 1.5rem;
 }
+.navbar-scroll {
+    background-color: var(--home3-main-color) !important;
+    padding-block: 5px;
+    transition: all .6s ease-in-out;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 4%);
+}
 
+.navbar-scroll img {
+    width: 150px;
+    transition: all .6s ease-in-out;
+}
 .menu ul {
     list-style-type: none;
     padding: 0;
@@ -181,10 +191,12 @@ a.text-main,
     color: var(--home3-main-color);
     text-decoration: none;
 }
+#why-choose,
 #services,
 #about-us {
     padding-block: 4rem;
 }
+#why-choose,
 #about-us{
     background-color: #eee;
 }
@@ -231,4 +243,26 @@ a.text-main,
     font-size: 1.5rem;
     color: var(--home3-main-color);
     margin-bottom: 1rem;
+}
+#why-choose .card{
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+#why-choose .card:hover{
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 50%);
+    transform: translateY(-10px);
+    transition: all 1s ease-in-out;
+}
+#why-choose .card img{
+    height: 200px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
+#why-choose .card h4{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+#why-choose .card p{
+    margin-bottom:0;
+    font-size: 0.85rem;
 }

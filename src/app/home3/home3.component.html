@@ -1,5 +1,6 @@
 <div class="body-wrapper">
-    <nav class="navbar navbar-expand-lg px-3 fixed-top">
+    <nav class="navbar navbar-expand-lg px-3 fixed-top" [class.navbar-scroll]="defaultClassNavbarScrollFlag"
+        (scroll)="onWindowScroll();">
         <div class="container">
             <div class="d-flex justify-content-between w-100 align-items-center">
                 <a class="navbar-brand" href="#">
@@ -222,6 +223,63 @@
                         <p>Lorem ipsum dolor sit amet consecltetur adipisicing elit. Omnis tempore perfe rendis
                             explicabo.</p>
                         <a class="text-main" href="#">Read More<i class="fa-solid fa-arrow-right-long ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-choose">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="small-heading mx-auto">WHY CHOOSE US</div>
+                    <h1 class="big-heading mb-4">Why Our Customers <br>Choose Working With Us</h1>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <img
+                                    src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041856.jpg">
+                                <div class="card-body">
+                                    <h4>Latest Technologies</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima
+                                        reiciendis nobis dolore obcaecati.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <img
+                                    src="https://img.freepik.com/free-photo/hand-engineer-playing-blocks-wood-tower-game-jenga-blueprint-architectural-project_1423-212.jpg">
+                                <div class="card-body">
+                                    <h4>Uniqe Solutions</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima
+                                        reiciendis nobis dolore obcaecati.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <img
+                                    src="https://img.freepik.com/free-photo/man-wooden-cubes-table-management-concept_155003-10339.jpg">
+                                <div class="card-body">
+                                    <h4>Powerful Strategies</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima
+                                        reiciendis nobis dolore obcaecati.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                                <img
+                                    src="https://img.freepik.com/free-photo/young-team-leader-big-corporation-briefing-coworkers-pointing-graph-meeting-corporate-staff_482257-4169.jpg">
+                                <div class="card-body">
+                                    <h4>24/7 Service</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repellendus minima
+                                        reiciendis nobis dolore obcaecati.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

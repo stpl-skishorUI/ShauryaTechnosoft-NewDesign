@@ -15,12 +15,66 @@
     <div class="offcanvas offcanvas-end text-bg-dark" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
         aria-labelledby="staticBackdropLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+            <h5 class="offcanvas-title" id="staticBackdropLabel">
+                <img src="assets/images/home1/STPL_Logo_White.svg">
+            </h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-            <div>
-                I will not close if you click outside of me.
+        <div class="offcanvas-body p-3">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a data-bs-toggle="collapse"  href="#collapseHome" role="button"
+                            aria-expanded="false" aria-controls="collapseHome">
+                            <span>Home</span>
+                            <span class="dropdown-toggle"></span>
+                        </a>
+                        <div class="collapse" id="collapseHome">
+                            <div class="card card-body">
+                                <ul class="sub-menu">
+                                    <li><a href="#">Home 1</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                    <li><a href="#">Home 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                    <li>
+                        <a data-bs-toggle="collapse"  href="#collapseServices" role="button"
+                            aria-expanded="false" aria-controls="collapseServices">
+                            Services
+                            <span class="dropdown-toggle"></span>
+                        </a>
+                        <div class="collapse" id="collapseServices">
+                            <div class="card card-body">
+                                <ul class="sub-menu">
+                                    <li><a href="#">Services 1</a></li>
+                                    <li><a href="#">Services 2</a></li>
+                                    <li><a href="#">Services 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a data-bs-toggle="collapse"  href="#collapseProducts" role="button"
+                            aria-expanded="false" aria-controls="collapseProducts">
+                            Products
+                            <span class="dropdown-toggle"></span>
+                        </a>
+                        <div class="collapse" id="collapseProducts">
+                            <div class="card card-body">
+                                <ul class="sub-menu">
+                                    <li><a href="#">Products 1</a></li>
+                                    <li><a href="#">Products 2</a></li>
+                                    <li><a href="#">Products 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -73,4 +127,8 @@
             </div>
         </div>
     </header>
+
+    <section id="about-us">
+
+    </section>
 </div>

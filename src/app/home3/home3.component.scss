@@ -191,6 +191,7 @@ a.text-main,
     color: var(--home3-main-color);
     text-decoration: none;
 }
+#clients,
 #why-choose,
 #services,
 #about-us {
@@ -247,6 +248,7 @@ a.text-main,
 #why-choose .card{
     border-radius: 10px;
     transition: all 1s ease-in-out;
+    border: none;
 }
 #why-choose .card:hover{
     box-shadow: 0px 5px 20px rgb(0 0 0 / 50%);
@@ -265,4 +267,18 @@ a.text-main,
 #why-choose .card p{
     margin-bottom:0;
     font-size: 0.85rem;
+}
+#clients {
+    background-color: var(--home3-main-color);
+}
+
+#clients .card {
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#clients .card img {
+    height: 60px;
 }

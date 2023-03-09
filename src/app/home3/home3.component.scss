@@ -1,4 +1,5 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 nav img {
     width: 160px;
@@ -14,37 +15,44 @@ nav .btn-menu {
     border-radius: 50%;
     font-size: 1.5rem;
 }
-.menu ul{
-    list-style-type:none;
+
+.menu ul {
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
     color: #fff;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
     border-radius: 0.375rem;
     margin-bottom: 5px;
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     background-color: var(--home3-main-color);
 }
-.menu .card{
+
+.menu .card {
     background-color: var(--home3-main-color);
     border: none;
 }
-.menu .card .sub-menu a{
+
+.menu .card .sub-menu a {
     font-size: 0.85rem;
     padding: 5px 10px;
 }
-header  .carousel-item{
+
+header .carousel-item {
     height: 100vh;
     display: flex;
     align-items: center;
 }
+
 header {
     height: 100vh;
 }
@@ -59,41 +67,46 @@ header .amcu {
 }
 
 header .mahakhanij {
-    background-image:linear-gradient(90deg, rgba(0,48,130,0.65) 0%, rgba(0,48,130,0.8) 100%), url('https://img.freepik.com/free-photo/excavator-digging-ground-day-light_23-2149194767.jpg?w=996&t=st=1678343284~exp=1678343884~hmac=c7e0c67d9d5fcc9a24dcc6d11979da518e8c5c990698dbf11903d9f909f257dc');
+    background-image: linear-gradient(90deg, rgba(0, 48, 130, 0.65) 0%, rgba(0, 48, 130, 0.8) 100%), url('https://img.freepik.com/free-photo/excavator-digging-ground-day-light_23-2149194767.jpg?w=996&t=st=1678343284~exp=1678343884~hmac=c7e0c67d9d5fcc9a24dcc6d11979da518e8c5c990698dbf11903d9f909f257dc');
 }
 
 header .election {
-    background-image:linear-gradient(90deg, rgba(0,48,130,0.65) 0%, rgba(0,48,130,0.8) 100%), url('https://c.ndtvimg.com/2019-10/3ru1dlg8_haryana-election-1200_625x300_24_October_19.jpg');
+    background-image: linear-gradient(90deg, rgba(0, 48, 130, 0.65) 0%, rgba(0, 48, 130, 0.8) 100%), url('https://c.ndtvimg.com/2019-10/3ru1dlg8_haryana-election-1200_625x300_24_October_19.jpg');
 }
 
 header .amcu {
-    background-image:linear-gradient(90deg, rgba(0,48,130,0.65) 0%, rgba(0,48,130,0.8) 100%), url('https://img.freepik.com/free-photo/technologist-expert-standing-food-production-plant-typing-his-tablet-computer_342744-1170.jpg?w=996&t=st=1678343649~exp=1678344249~hmac=135bc710f35ab98beaacca36de294ea3000304451f3cced152a43d36b037974f');
+    background-image: linear-gradient(90deg, rgba(0, 48, 130, 0.65) 0%, rgba(0, 48, 130, 0.8) 100%), url('https://img.freepik.com/free-photo/technologist-expert-standing-food-production-plant-typing-his-tablet-computer_342744-1170.jpg?w=996&t=st=1678343649~exp=1678344249~hmac=135bc710f35ab98beaacca36de294ea3000304451f3cced152a43d36b037974f');
 }
-header h1{
+
+header h1 {
     font-size: 4.0rem;
     color: white;
     text-transform: capitalize;
     font-weight: 800;
 }
-header p{
+
+header p {
     font-size: 1.2rem;
     color: white;
     font-weight: 100;
     margin-bottom: 2rem;
 }
-.offcanvas .btn-close{
+
+.offcanvas .btn-close {
     background-color: #fff !important;
     opacity: 1;
     border-radius: 50%;
     padding: 15px;
 }
-.offcanvas img{
+
+.offcanvas img {
     width: 180px;
 }
-.btn-more{
+
+.btn-more {
     background-color: transparent;
     color: #fff;
-    font-size:0.9rem;
+    font-size: 0.9rem;
     font-weight: 600;
     border-radius: 30px;
     padding: 15px 35px;
@@ -101,24 +114,79 @@ header p{
     transition: all 0.7s ease-in-out;
     margin-right: 10px;
 }
-.btn-more:hover{
+
+.btn-more:hover {
     background-color: #fff;
     color: var(--home3-main-color);
     transition: all 0.7s ease-in-out;
 }
-.btn-download{
+
+.btn-download {
     background-color: var(--home3-main-color);
     color: #fff;
-    font-size:0.9rem;
+    font-size: 0.9rem;
     font-weight: 600;
     border-radius: 30px;
     padding: 15px 35px;
     border: solid 2px var(--home3-main-color);
     transition: all 0.7s ease-in-out;
 }
-.btn-download:hover{
+
+.btn-download:hover {
     background-color: transparent;
     color: #fff;
     border: solid 2px #fff;
     transition: all 0.7s ease-in-out;
+}
+
+.small-heading {
+    background-color: rgba(0, 48, 130, 0.15);
+    color: var(--home3-main-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 0.375rem;
+    width: fit-content;
+    margin-bottom: 1rem;
+}
+
+.big-heading {
+    color: var(--home3-main-color);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    font-family: 'PT Serif', serif;
+}
+
+.btn-main {
+    background-color: var(--home3-main-color);
+    color: #fff;
+    border-radius: 7px;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    font-size: 0.9rem;
+    padding: 15px 35px;
+    border: solid 2px var(--home3-main-color);
+    font-weight: 600;
+}
+
+.btn-main:hover {
+    color: var(--home3-main-color);
+    background-color: transparent;
+    border: solid 2px var(--home3-main-color);
+    border-radius: 30px;
+}
+
+#services,
+#about-us {
+    padding-block: 4rem;
+}
+#about-us{
+    background-color: #eee;
+}
+#about-us p{
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #656565;
+    margin-bottom: 2rem;
 }
